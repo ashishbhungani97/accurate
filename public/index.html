@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <title>Accurate, the next generation of Data</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="./public/imges/favicon.png">
+  <link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./public/css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="./public/css/owl.theme.default.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    .owl-stage {
+      display: flex;
+    }
+  </style>
+</head>
+
+<body class="index3">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+<script type="text/javascript" src="./public/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="./public/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./public/js/owl.carousel.min.js"></script>
+<script src='../cdn.jsdelivr.net/gh/michalsnik/aos%402.0.4/dist/aos.js'></script>
+<script type="text/javascript">
+  AOS.init({
+    duration: 1000
+  });
+</script>
+
+<script type="text/javascript">
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        content.style.visibility = "hidden";
+        content.style.margin = "0 2%";
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        content.style.visibility = "visible";
+        content.style.margin = "12px 2%";
+      }
+    });
+  }
+</script>
+
+<script>
+  $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 3000,
+      loop: true,
+      margin: 10,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        400: {
+          items: 2,
+          nav: false
+        },
+        600: {
+          items: 3,
+          nav: false
+        },
+        1000: {
+          items: 5,
+          nav: true,
+          loop: true
+        }
+      }
+    })
+  })
+</script>
+
+</html>
