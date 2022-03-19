@@ -52,9 +52,9 @@ function Body() {
                         <div className="col-lg-12 overflow-hidden">
                             <div className="smart mt-4 overflow-hidden" data-aos="fade-down">
                                 <h1 style={{"color":" #8BB0D5"}}>Why <span className="fw-bold" style={{"color":" #2356BC"}}>Accurate?</span></h1>
-                                <p style={{"color":" #414D56"}} className="fw-bold">We have shipment records of 80+ countries, and you can access them all through a simple interface. These records are compiled after collating actual shipping and customs documents like shipping bills, bills of entries, EGM, etc. You can filter the records based on requirements (import or export). Connections play an important role in business, and this database of shipment records will help you find some profitable buyers and suppliers for your trading business.</p>
-                                <p style={{"color":" #414D56"}} className="fw-bold">
-                                    India Customs data is the imports and exports data of products imported in and exported from India. It is very useful for global import export business for exporters/suppliers and importers/buyers to do market research and analysis of trade business</p><p style={{"color": "#414D56"}} className="fw-bold">
+                                <p style={{"color":" #fff"}} className="fw-bold">We have shipment records of 80+ countries, and you can access them all through a simple interface. These records are compiled after collating actual shipping and customs documents like shipping bills, bills of entries, EGM, etc. You can filter the records based on requirements (import or export). Connections play an important role in business, and this database of shipment records will help you find some profitable buyers and suppliers for your trading business.</p>
+                                <p style={{"color":" #fff"}} className="fw-bold">
+                                    India Customs data is the imports and exports data of products imported in and exported from India. It is very useful for global import export business for exporters/suppliers and importers/buyers to do market research and analysis of trade business</p><p style={{"color": "#fff"}} className="fw-bold">
                                     This one gives stats-based information about products/goods exporting from India along with details of trading partners.</p>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ function Body() {
                         <div className="col-md-8">
                             <div data-aos="fade-down" className="overflow-hidden">
                                 <h1 className="text-center fw-bold" style={{"color": "#8BB0D5"}}>The benefits of Join US.</h1>
-                                <p className="text-center fw-bold" style={{"color": "#414D56"}}>We Provide Solutions & Not Just A Service.</p>
+                                <p className="text-center fw-bold" style={{"color": "#fff"}}>We Provide Solutions & Not Just A Service.</p>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ function Body() {
                                     </div>
                                     <div className="card-title t-text mt-3 text-center overflow-hidden" style={{"color":"#8BB0D5"}}>                                      <h4>Discover Trading partner</h4>
                                     </div>
-                                    <div className="card-text justify-content-center fw-bold" style={{"color": "#414D56"}}>
+                                    <div className="card-text justify-content-center fw-bold" style={{"color": "#fff"}}>
                                         <p className="font-13">Find most suitable buyer and supplier for your product.</p>
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ function Body() {
                                     <div className="card-title t-text mt-3 text-center   overflow-hidden" style={{"color": "#8BB0D5"}}>
                                         <h4>Competitor Analysis</h4>
                                     </div>
-                                    <div className="card-text justify-content-center fw-bold" style={{"color": "#414D56"}}>
+                                    <div className="card-text justify-content-center fw-bold" style={{"color": "#fff"}}>
                                         <p className="font-13">
                                             Analyse your competitor before making a move.
                                         </p>
@@ -118,7 +118,7 @@ function Body() {
                                     <div className="card-title t-text mt-3 text-center   overflow-hidden" style={{"color": "#8BB0D5"}}>
                                         <h4>Research Indian Market</h4>
                                     </div>
-                                    <div className="card-text justify-content-center fw-bold" style={{"color":"#414D56"}}>
+                                    <div className="card-text justify-content-center fw-bold" style={{"color":"#fff"}}>
                                         <p className="font-13">
                                             Discover new opportunities in Indian Market.
                                         </p>
@@ -142,7 +142,7 @@ function Body() {
                                 <div className="overflow-hidden">
                                     <h4 className="fw-bold" style={{"color": "#8BB0D5"}}>Obtain an Analytical Report for Strategic Planning </h4>
                                     <div className="mt-3">
-                                        <p className="justify-text fw-bold" style={{"color": "#414D56"}}>
+                                        <p className="justify-text fw-bold" style={{"color": "#fff"}}>
                                             With the help of efficient BI algorithms, we offer a summary of International as well as India trade data that saves your time and effort. Moreover, this report is free from mistakes that anyone can perform while manually analyzing the plethora of records.
                                         </p>
                                     </div>
@@ -157,7 +157,7 @@ function Body() {
                                 <div className="overflow-hidden">
                                     <h4 className="fw-bold" style={{"color" : "#8BB0D5"}}>Customized Reports to Cater to your Needs</h4>
                                     <div className="mt-3">
-                                        <p className="justify-text fw-bold" style={{"color": "#414D56"}}>
+                                        <p className="justify-text fw-bold" style={{"color": "#fff"}}>
                                             We understand that every businessman has different requirements. Hence we provide customized reports with global and India shipment data that are prepared to cater to core problems. The layout of the report is kept in a graphical layout to make it more understandable.
                                         </p>
                                     </div>
@@ -172,7 +172,7 @@ function Body() {
                                 <div className="overflow-hidden">
                                     <h4 className="fw-bold" style={{"color": "#8BB0D5"}}>Deep Analysis</h4>
                                     <div className="mt-3">
-                                        <p className="overflow-hidden justify-text fw-bold" style={{"color": "#414D56"}}>
+                                        <p className="overflow-hidden justify-text fw-bold" style={{"color": "#fff"}}>
                                             Our tool is integrated with BI-powered technology to deliver in-depth analysis on the filtered data and generate a report that can help the management know the insights of the industry.
                                         </p>
                                     </div>
@@ -187,7 +187,7 @@ function Body() {
                                 <div className="overflow-hidden">
                                     <h4 className="fw-bold" style={{"color": "#8BB0D5"}}>Export Reports in your Desired Format </h4>
                                     <div className="mt-3">
-                                        <p className="justify-text fw-bold" style={{"color": "#414D56"}}>
+                                        <p className="justify-text fw-bold" style={{"color": "#fff"}}>
                                             You can export the reports in various formats like PDF and Excel to save them in the local storage. Moreover, you can directly take a printout of the reports with a single click.
                                         </p>
                                     </div>
@@ -202,7 +202,7 @@ function Body() {
                                 <div className="overflow-hidden">
                                     <h4 className="fw-bold" style={{"color": "#8BB0D5"}}>User-friendly experience</h4>
                                     <div className="mt-3">
-                                        <p className="justify-text fw-bold" style={{"color": "#414D56"}}>
+                                        <p className="justify-text fw-bold" style={{"color": "#fff"}}>
                                             Our upper-most priority is to create a user-friendly environment for the community. Hereby is our main focus to provide a complete seamless experience by developing the total simplicity into Accurate.
                                         </p>
                                     </div>
@@ -217,7 +217,7 @@ function Body() {
                                 <div className="overflow-hidden">
                                     <h4 className="fw-bold" style={{"color": "#8BB0D5"}}>Role of India in world trade </h4>
                                     <div className="mt-3">
-                                        <p className="justify-text fw-bold" style={{"color": "#414D56"}}>
+                                        <p className="justify-text fw-bold" style={{"color": "#fff"}}>
                                             10th biggest economy of the world that is riding the rapid train of development
                                             Skyrocketing expansion of the share of foreign trade in the country
                                             Major global exporter in a wide range of items like tea, spices, pearls, precious/semi-precious stones, medicinal and pharmaceutical products, rice, iron-ore and concentrates, leather related goods, textile yarns, fabrics garments, and tobacco.
