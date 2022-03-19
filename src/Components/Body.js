@@ -264,7 +264,7 @@ function Body() {
                                 </div>
                                 <p className="text-white">
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <span>Email: info@accurate.io</span>
+                                    <span>Email: info.accurateanalyst@gmail.com</span>
                                 </p>
                             </div>
                         </div>
